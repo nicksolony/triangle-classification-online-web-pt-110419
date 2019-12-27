@@ -13,6 +13,9 @@ class Triangle
     raise TriangleError
     else
       case @side_a,@side_b,@side_c
+        
+        when @side_a == @side_b && @side_b == @side_c
+          
       
       end
     end
