@@ -14,6 +14,7 @@ class Triangle
     else
       case @side_a,@side_b,@side_c
       
+      end
     end
   end
   class TriangleError < StandardError
