@@ -15,7 +15,7 @@ class Triangle
       case @side_a,@side_b,@side_c
         
         when @side_a == @side_b && @side_b == @side_c
-          :
+          :equilateral
       
       end
     end
